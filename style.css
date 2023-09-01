@@ -1,0 +1,102 @@
+.desktop-home {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop-home .div {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(61.58, 136.85, 132.33) 0%, rgba(61.58, 136.85, 132.33, 0) 100%);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .desktop-home .overlap-group {
+    position: absolute;
+    width: 856px;
+    height: 767px;
+    top: 138px;
+    left: 960px;
+    background-color: #638d7e;
+  }
+  
+  .desktop-home .text-wrapper {
+    position: absolute;
+    width: 302px;
+    top: 111px;
+    left: 82px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop-home .text-wrapper-2 {
+    position: absolute;
+    width: 302px;
+    top: 286px;
+    left: 82px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop-home .overlap {
+    position: absolute;
+    width: 712px;
+    height: 747px;
+    top: 190px;
+    left: 93px;
+  }
+  
+  .desktop-home .text-wrapper-3 {
+    position: absolute;
+    width: 628px;
+    top: 0;
+    left: 84px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop-home .venti {
+    position: absolute;
+    width: 712px;
+    height: 707px;
+    top: 40px;
+    left: 0;
+    object-fit: cover;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
